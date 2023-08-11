@@ -27,7 +27,7 @@ repeat
 				if v.Character ~= nil and v.Character.HumanoidRootPart then
 					local Start = os.clock() -- os.clock() is a function that gets your time right now
                     while os.clock() - Start < .2 do -- This Code Checks if the .2 of second passed
-                        Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame * CFrame.New(0,-1,0) --  And the Best Part! Teleporting to Players! BTW You can make it without * CFrame.New(0,-1,0) but with it it will fling players with noclip
+                        Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1,0) --  And the Best Part! Teleporting to Players! BTW You can make it without * CFrame.New(0,-1,0) but with it it will fling players with noclip
                         RunService.Heartbeat:Wait() -- More Better Wait
                     end
 				end
