@@ -35,3 +35,4 @@ repeat
 		end
 	end
 until Character.Humanoid.Jump == true -- By this line of code you can stop this after you jump. Usefull if you want to stop flinging
+Character.HumanoidRootPart.CFrame = OldCFrame
