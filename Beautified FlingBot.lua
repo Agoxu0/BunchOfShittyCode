@@ -35,4 +35,7 @@ repeat
 		end
 	end
 until Character.Humanoid.Jump == true -- By this line of code you can stop this after you jump. Usefull if you want to stop flinging
+task.wait(.1)
+Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
+task.wait(.1)
 Character.HumanoidRootPart.CFrame = OldCFrame
